@@ -21,7 +21,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                Я
+                Мене звуть
+<Br />
                 <strong className="main-name"> Сушко Андрій</strong>
               </h1>
 

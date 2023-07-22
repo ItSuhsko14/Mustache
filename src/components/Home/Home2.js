@@ -23,7 +23,7 @@ function Home2() {
             <p className="home-about-body">
               Я займаюсь веб розробкою використовуючи 
               <i>
-                <b className="purple"> C++, JavaScript, React, Node.js, MongoDB. </b>
+                <b className="purple"> JavaScript, React, Node.js, MongoDB. </b>
               </i>
               <br />
               <br />

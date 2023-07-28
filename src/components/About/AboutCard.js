@@ -8,33 +8,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
-            <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Мене звуть <span className="purple">Сушко Андрій. </span>
+            Живу в <span className="purple"> Україні, м. Дніпро.</span>
+            <br /> Я фронтенд розробник. Займаюсь створенням сайтів та веб додатків
+            із використанням стеку MERN (MongoDB, Express.js, React.js, Node.js) та різні бібліотеки.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Я є інженером та магістром цивільного та промислового будівництва, 
+            але більшу частину професійного життя процював в сфері 
+            організації свят, заходів, ресторанному обслуговуванні.
+            Тому майже всі мої проекти у веб програмуванні пов'язані
+            саме з цією доменною сферою.
+            <br />
+            <br />
+            Маю досвід роботи в сфері веб програмування і продовжую
+            працювати, одночасно вивчаючи нові технології. Але прагну 
+            до професійного розвитку, тому шукаю команду
+            із сильною інженерною культурою, в якій міг би проявити
+            свої здібності та технічний склад розуму на максимум.
+            Буду радий пропозиціям з працевлаштуванням.
+            <br />
+            <br />
+            Своїми сильними сторонами вважаю націленість на результат,
+            вміння самостійно організовувати свою роботу і розуміння 
+            потреб бізнеса. Ці риси мав можливість напрацювати та 
+            проявити в повній мірі під час самостійної підприємницької
+            діяльності, яку веду вже впродовж 15 років.
+            <br />
+            <br />
+            Мої хоббі - циклічні види спорта (біг, плавання, тріатлон).
+            Найкращим відпочинком вважаю - час проведений з дітьми.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          
         </blockquote>
       </Card.Body>
     </Card>

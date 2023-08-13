@@ -18,7 +18,7 @@ function Projects() {
           Мої останні <strong className="purple">роботи</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Ось деякі з проектів, які я виконува.
+          Ось деякі з проектів, які я виконував.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 

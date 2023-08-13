@@ -46,6 +46,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={allur}
+              isBlog={false}
+              title="Кінний клуб Аллюр"
+              description="Сайт кінного клуба Аллюр. Презентує кінний клуб, інформацію про основні послуги і контакти. Створено за допомогою препроцессорів pug.js та scss та фреймворку Bootsrap"
+              ghLink="https://github.com/ItSuhsko14/MyAllur"
+              demoLink="http://allur.dp.ua/" 
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={kazaki}
               isBlog={false}
               title="Kazak.zp.ua"
@@ -55,16 +66,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={allur}
-              isBlog={false}
-              title="Кінний клуб Аллюр"
-              description="Сайт кінного клуба Аллюр. Презентує кінний клуб, інформацію про основні послуги і контакти. Створено за допомогою препроцессорів pug.js та scss та фреймворку Bootsrap"
-              ghLink="https://github.com/ItSuhsko14/MyAllur"
-              demoLink="http://allur.dp.ua/" 
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard

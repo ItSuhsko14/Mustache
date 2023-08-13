@@ -21,16 +21,6 @@ function Projects() {
           Ось деякі з проектів, які я виконува.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mustdev}
-              isBlog={false}
-              title="Mustdev.pp.ua"
-              description="Лендінг пейдж агенції з веб розробки. Презентація послуг, приклади робіт, ціни. Створено за допомогою React, з деплоєм на Vercel."
-              ghLink="https://github.com/ItSuhsko14/webdevlanding"
-              demoLink="https://www.mustdev.pp.ua/"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -86,6 +76,17 @@ function Projects() {
               demoLink="https://cheffassistant.pp.ua"      
             />
           </Col>
+                    <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mustdev}
+              isBlog={false}
+              title="Mustdev.pp.ua"
+              description="Лендінг пейдж агенції з веб розробки. Презентація послуг, приклади робіт, ціни. Створено за допомогою React, з деплоєм на Vercel."
+              ghLink="https://github.com/ItSuhsko14/webdevlanding"
+              demoLink="https://www.mustdev.pp.ua/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

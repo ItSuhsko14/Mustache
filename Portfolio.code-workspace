@@ -8,7 +8,15 @@
 		},
 		{
 			"path": "E:/Projects"
+		},
+		{
+			"path": "../../Day"
+		},
+		{
+			"path": "../../Photographer"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Day"
+	}
 }

@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import sicheslavski from "../../Assets/Projects/sicheslavski.png";
-import chef from "../../Assets/Projects/chefassistant.png";
-import allur from "../../Assets/Projects/allur.png";
-import mustdev from "../../Assets/Projects/mustdev.png"
-import kazaki from "../../Assets/Projects/kazaki.png";
-import kozaky from "../../Assets/Projects/kozaky.png";
+import sicheslavski from "../../Assets/Projects/sicheslavski-sm.png";
+import chef from "../../Assets/Projects/chefassistant-sm.png";
+import allur from "../../Assets/Projects/allur-sm.png";
+import mustdev from "../../Assets/Projects/mustdev-sm.png"
+import kazaki from "../../Assets/Projects/kazaki-sm.png";
+import kozaky from "../../Assets/Projects/kozaky-sm.png";
 
 function Projects() {
   return (
@@ -75,7 +75,7 @@ function Projects() {
               title="Chef assistant"
               description="Односторінковий веб додаток призначений для автоматизації роботи в ресторані або іншому харчовому виробництві. Дозволяє вводити базу технологічних карт і швидко перераховувати калькуляції відповідно до різного об'єму готової продукції. Створено на стеку MERN (MondoDB, Express.js, React, Node.js"
               ghLink="https://github.com/ItSuhsko14/ChefAssistant"
-              demoLink="https://cheffassistant.pp.ua"      
+              demoLink="https://chefassistant.pp.ua"      
             />
           </Col>
                     <Col md={4} className="project-card">

@@ -8,6 +8,7 @@ import allur from "../../Assets/Projects/allur-sm.png";
 import mustdev from "../../Assets/Projects/mustdev-sm.png"
 import kazaki from "../../Assets/Projects/kazaki-sm.png";
 import kozaky from "../../Assets/Projects/kozaky-sm.png";
+import doroshenko from "../../Assets/Projects/doroshenko-sm.png"
 
 function Projects() {
   return (
@@ -22,7 +23,19 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={doroshenko}
+              isBlog={false}
+              title="Ведучий Олександр Дорошенко"
+              description="Сайт для презентації послуг ведучого свят Олександра Дорошенка. Технології: HTML, CSS, Javascript, Bootstrap."
+              ghLink="https://github.com/ItSuhsko14/doroshenko"
+              demoLink="https://www.adoroshenko.pp.ua/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
+
             <ProjectCard
               imgPath={kozaky}
               isBlog={false}

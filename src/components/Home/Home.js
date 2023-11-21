@@ -19,8 +19,8 @@ function Home() {
                  👋
                 </span>
               </h1>
-
               <h1 className="heading-name">
+
                 Мене звуть
 <br />
                 <strong className="main-name"> Сушко Андрій</strong>

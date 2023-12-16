@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Contacts from "./Contacts";
 
 function Home() {
   return (
@@ -11,6 +12,11 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
+          <Row>
+            <Col md={12} className="home-about-social">
+              <Contacts />
+            </Col>
+          </Row>
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
@@ -21,10 +27,14 @@ function Home() {
               </h1>
               <h1 className="heading-name">
 
-                Мене звуть
-<br />
-                <strong className="main-name"> Сушко Андрій</strong>
+                Я <strong className="main-name"> Сушко Андрій</strong>
+                <br />
+                <h2>
+                  front-end React developer
+              </h2>
               </h1>
+              
+
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />

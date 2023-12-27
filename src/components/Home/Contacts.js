@@ -9,8 +9,8 @@ import { FaLinkedinIn, FaPhone, FaTelegram, FaEnvelope } from "react-icons/fa";
 
 function Contacts() {
   return (
-    <Container>
-      <Row>
+    <Container className="mt-4">
+      <Row >
         <Col md={12}>
           <ul className="home-about-social-links d-flex flex-wrap justify-content-center">
             {/* <li className="social-icons">

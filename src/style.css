@@ -156,7 +156,9 @@ button:focus {
 
 .logo {
   height: 9vw !important;
+  max-height: 2.5em !important;
   width: 9vw !important;
+  max-width: 2.5em !important;
 }
 
 .navbar-nav .nav-link {

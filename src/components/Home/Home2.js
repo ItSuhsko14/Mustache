@@ -42,16 +42,15 @@ function Home2() {
           </Col>
         </Row>
       </Container>
-      <Row>
+        <Row>
           <Col md={12} className="home-about-social">
             <h1>Мої соц. мережі</h1>
             <p>
               Завжди відкритий до <span className="purple">спілкування </span>
             </p>
-                        
           </Col>
         </Row>
-      <Row>
+      <Row> 
         <Col md={12} className="home-about-social">
           <Contacts />
          </Col>

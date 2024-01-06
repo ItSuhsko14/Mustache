@@ -36,7 +36,10 @@ function Home() {
               
 
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ 
+                            padding: 20, 
+                            textAlign: "left",
+                            paddingBottom: 50                          }}>
                 <Type />
               </div>
             </Col>

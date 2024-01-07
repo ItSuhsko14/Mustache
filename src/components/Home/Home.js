@@ -6,6 +6,9 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Contacts from "./Contacts";
 import About from "./../About/About"
+import myImg from "../../Assets/avatar.svg";
+import Tilt from "react-parallax-tilt";
+
 
 function Home() {
   return (
@@ -38,21 +41,27 @@ function Home() {
 
 
               <div style={{ 
-                            padding: 20, 
+                            padding: 50, 
                             textAlign: "left",
-                            paddingBottom: 50                          }}>
+                            paddingBottom: 50                          
+                          }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={4} className="myAvtar">
+              <Tilt>
+                <img src={myImg} className="img-fluid" alt="avatar" />
+              </Tilt>
+            </Col>
+            {/* <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </Container>

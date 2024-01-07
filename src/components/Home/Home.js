@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Contacts from "./Contacts";
+import About from "./../About/About"
 
 function Home() {
   return (
@@ -55,7 +56,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <About />
     </section>
   );
 }

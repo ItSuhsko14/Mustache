@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaPhone, FaTelegram, FaEnvelope } from "react-icons/fa";
 
@@ -28,7 +26,7 @@ function Contacts() {
               <a
                 href="https://t.me/alutiy"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="icon-colour  home-social-icons"
               >
                 <FaTelegram />

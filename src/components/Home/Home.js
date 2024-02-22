@@ -33,7 +33,7 @@ function Home() {
 
                 Я <strong className="main-name"> Сушко Андрій</strong>
                 <br />
-                <h2>
+              <h2>
                   front-end React developer
               </h2>
               </h1>

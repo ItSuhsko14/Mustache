@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaPhone, FaTelegram, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaTelegram, FaEnvelope } from "react-icons/fa";
 
 function Contacts() {
   return (
@@ -26,7 +26,7 @@ function Contacts() {
               <a
                 href="https://t.me/alutiy"
                 target="_blank"
-                rel="noopener noreferrer"
+                
                 className="icon-colour  home-social-icons"
               >
                 <FaTelegram />

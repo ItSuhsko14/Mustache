@@ -8,7 +8,9 @@ import allur from "../../Assets/Projects/allur-sm.png";
 import mustdev from "../../Assets/Projects/mustdev-sm.png"
 import kazaki from "../../Assets/Projects/kazaki-sm.png";
 import kozaky from "../../Assets/Projects/kozaky-sm.png";
-import doroshenko from "../../Assets/Projects/doroshenko-sm.png"
+import doroshenko from "../../Assets/Projects/doroshenko-sm.png";
+import litvin from "../../Assets/Projects/dimalitvin.png";
+import litvinsm from "../../Assets/Projects/dimalitvin-sm.png";
 
 function Projects() {
   return (
@@ -22,6 +24,17 @@ function Projects() {
           Ось деякі з проектів, які я виконував.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={litvin}
+              isBlog={false}
+              title="Фотограф Діма Літвін"
+              description="Сайт для презентації послуг весільного фотографа. Технології: HTML, CSS, JavaScript, JQuery, Lightgallery. "
+              ghLink="https://github.com/ItSuhsko14/photographer"
+              demoLink="https://www.photograph-site.pp.ua/"
+            />
+         </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard

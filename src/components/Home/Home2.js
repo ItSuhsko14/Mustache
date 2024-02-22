@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Contacts from './Contacts'
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -17,8 +18,8 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               Коротко
-<br />
- <span className="purple"> ПРО МЕНЕ </span> 
+              <br />
+              <span className="purple"> ПРО МЕНЕ </span> 
             </h1>
             <p className="home-about-body">
               Я займаюсь веб розробкою використовуючи 
@@ -40,48 +41,20 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+      </Container>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Мої соц. мережі</h1>
             <p>
               Завжди відкритий до <span className="purple">спілкування </span>
             </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/ItSuhsko14"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/andriysushko/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/mustache.development"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
           </Col>
         </Row>
-      </Container>
+      <Row> 
+        <Col md={12} className="home-about-social">
+          <Contacts />
+         </Col>
+      </Row>
     </Container>
   );
 }

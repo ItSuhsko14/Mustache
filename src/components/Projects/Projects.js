@@ -25,7 +25,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={litvin}
               isBlog={false}
@@ -34,9 +34,9 @@ function Projects() {
               ghLink="https://github.com/ItSuhsko14/photographer"
               demoLink="https://www.photograph-site.pp.ua/"
             />
-         </Col>
+          </Col>
 
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={doroshenko}
               isBlog={false}
@@ -66,7 +66,7 @@ function Projects() {
               title="Sicheslavski.com.ua"
               description="Сайт громадської організації, яка займаєтсья культурно-просвітницької діяльністю. Створений на фреймворку Next.js з використанням статичної генерації"
               ghLink="https://github.com/ItSuhsko14/sicheslavski-static"
-              demoLink="https://sicheslavski.kozaky.com.ua/"              
+              demoLink="https://sicheslavski.kozaky.com.ua/"
             />
           </Col>
 
@@ -77,10 +77,10 @@ function Projects() {
               title="Кінний клуб Аллюр"
               description="Сайт кінного клуба Аллюр. Презентує кінний клуб, інформацію про основні послуги і контакти. Створено за допомогою препроцессорів pug.js та scss та фреймворку Bootsrap"
               ghLink="https://github.com/ItSuhsko14/MyAllur"
-              demoLink="http://allur.dp.ua/" 
+              demoLink="https://allur-self.vercel.app/"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={kazaki}
@@ -92,7 +92,7 @@ function Projects() {
             />
           </Col>
 
-          
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -101,10 +101,10 @@ function Projects() {
               title="Chef assistant"
               description="Односторінковий веб додаток призначений для автоматизації роботи в ресторані або іншому харчовому виробництві. Дозволяє вводити базу технологічних карт і швидко перераховувати калькуляції відповідно до різного об'єму готової продукції. Створено на стеку MERN (MondoDB, Express.js, React, Node.js"
               ghLink="https://github.com/ItSuhsko14/ChefAssistant"
-              demoLink="https://chefassistant.pp.ua"      
+              demoLink="https://chefassistant.pp.ua"
             />
           </Col>
-                    <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mustdev}
               isBlog={false}

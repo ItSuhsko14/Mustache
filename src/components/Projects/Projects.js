@@ -111,7 +111,7 @@ function Projects() {
               title="Mustdev.pp.ua"
               description="Лендінг пейдж агенції з веб розробки. Презентація послуг, приклади робіт, ціни. Створено за допомогою React, з деплоєм на Vercel."
               ghLink="https://github.com/ItSuhsko14/webdevlanding"
-              demoLink="https://www.mustdev.pp.ua/"
+              demoLink="https://webdevlanding-jzjzz23hv-itsuhsko14.vercel.app/"
             />
           </Col>
 

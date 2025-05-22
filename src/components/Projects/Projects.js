@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import sicheslavski from "../../Assets/Projects/sicheslavski-sm.png";
 import chef from "../../Assets/Projects/chefassistant-sm.png";
 import allur from "../../Assets/Projects/allur-sm.png";
-import mustdev from "../../Assets/Projects/mustdev-sm.png"
+import mustdev from "../../Assets/Projects/mustdev-sm.png";
 import kazaki from "../../Assets/Projects/kazaki-sm.png";
 import kozaky from "../../Assets/Projects/kozaky-sm.png";
 import doroshenko from "../../Assets/Projects/doroshenko-sm.png";
@@ -20,11 +20,8 @@ function Projects() {
         <h1 className="project-heading">
           Мої останні <strong className="purple">роботи</strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Ось деякі з проектів, які я виконував.
-        </p>
+        <p style={{ color: "white" }}>Ось деякі з проектів, які я виконував.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={litvin}
@@ -48,7 +45,6 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-
             <ProjectCard
               imgPath={kozaky}
               isBlog={false}
@@ -92,8 +88,6 @@ function Projects() {
             />
           </Col>
 
-
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chef}
@@ -114,7 +108,6 @@ function Projects() {
               demoLink="https://webdevlanding-jzjzz23hv-itsuhsko14.vercel.app/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>

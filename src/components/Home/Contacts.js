@@ -1,14 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegram, FaEnvelope } from "react-icons/fa";
 
 function Contacts() {
   return (
     <Container className="mt-4">
-      <Row >
+      <Row>
         <Col md={12}>
           <ul className="home-about-social-links d-flex flex-wrap justify-content-center">
             {/* <li className="social-icons">
@@ -26,7 +24,6 @@ function Contacts() {
               <a
                 href="https://t.me/alutiy"
                 target="_blank"
-                
                 className="icon-colour  home-social-icons"
               >
                 <FaTelegram />
@@ -65,7 +62,6 @@ function Contacts() {
                 <FaLinkedinIn />
               </a>
             </li>
-            
           </ul>
         </Col>
       </Row>

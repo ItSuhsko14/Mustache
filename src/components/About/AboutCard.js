@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,38 +7,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Мене звуть <span className="purple">Сушко Андрій. </span>
-            Живу в <span className="purple"> Україні, м. Дніпро.</span>
-            <br /> Я фронтенд розробник. Займаюсь створенням сайтів та веб додатків
-            із використанням стеку MERN (MongoDB, Express.js, React.js, Node.js) та різні бібліотеки.
+            My name is <span className="purple">Andriy Sushko. </span>
+            I'm from <span className="purple">Ukraine, Dnipro.</span>
             <br />
             <br />
-            Я є інженером та магістром із технічною вищою освітою. 
-            Більшу частину професійного життя займався створенням проєктів в сфері 
-            організації свят, заходів, ресторанному обслуговуванні.
-            Тому майже всі мої проекти у веб програмуванні пов'язані
-            саме з цією доменною сферою.
+            I'm deeply enthusiastic about the modern technology, web development, industrial automation, online product
+            growth, digital security, hardware, IoT and AI.
             <br />
             <br />
-            Маю досвід роботи в сфері веб програмування і продовжую
-            працювати, одночасно вивчаючи нові технології. Але прагну 
-            до професійного розвитку, тому шукаю команду
-            із сильною інженерною культурою, в якій міг би проявити
-            свої здібності та технічний склад розуму на максимум.
-            Буду радий пропозиціям з працевлаштуванням.
+            I bring these passions to life working with great teams, on my own projects, and through mil-tech
+            initiatives.
             <br />
             <br />
-            Своїми сильними сторонами вважаю націленість на результат,
-            вміння самостійно організовувати свою роботу і розуміння 
-            потреб бізнеса. Ці риси мав можливість напрацювати та 
-            проявити в повній мірі під час самостійної підприємницької
-            діяльності, яку веду вже впродовж 15 років.
+            Я є інженером та магістром із технічною вищою освітою. Більшу частину професійного життя займався створенням
+            проєктів в сфері організації свят, заходів, ресторанному обслуговуванні. Тому майже всі мої проекти у веб
+            програмуванні пов'язані саме з цією доменною сферою.
             <br />
             <br />
-            Мої хоббі - циклічні види спорта (біг, плавання, тріатлон).
-            Найкращим відпочинком вважаю - час проведений з дітьми.
+            Currently, I have the following projects: in the entertainment industry – "Luti"; in the restaurant sector –
+            the mobile catering service "Luta Kukhnya"; and I provide web support for the volunteer initiative "Teplo na
+            Peredovu".
+            <br />
+            <br />
+            As for my hobbies, I am passionate about endurance sports, coffee, and books.
           </p>
-          
         </blockquote>
       </Card.Body>
     </Card>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Contacts from './Contacts'
+import Contacts from "./Contacts";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -19,20 +19,21 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               Коротко
               <br />
-              <span className="purple"> ПРО МЕНЕ </span> 
+              <span className="purple"> ПРО МЕНЕ </span>
             </h1>
             <p className="home-about-body">
-              Я займаюсь веб розробкою використовуючи 
+              Я займаюсь веб розробкою використовуючи
               <i>
                 <b className="purple"> JavaScript, React, Node.js, MongoDB. </b>
               </i>
               <br />
               <br />
-              Моя спеціалізація - сайти для івент індустрії, для ведучих, фотографів, агенцій. Також маю досвід в автоматизації харчових виробництв (ресторани, пекарні). 
-              
+              Моя спеціалізація - сайти для івент індустрії, для ведучих,
+              фотографів, агенцій. Також маю досвід в автоматизації харчових
+              виробництв (ресторани, пекарні).
               <br />
-              <br />
-              Я знаходжусь в пошуку команди із сильною інженерною культурою для професійного розвитку в сфері розробки. 
+              <br />Я знаходжусь в пошуку команди із сильною інженерною
+              культурою для професійного розвитку в сфері розробки.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -42,18 +43,18 @@ function Home2() {
           </Col>
         </Row>
       </Container>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>Мої соц. мережі</h1>
-            <p>
-              Завжди відкритий до <span className="purple">спілкування </span>
-            </p>
-          </Col>
-        </Row>
-      <Row> 
+      <Row>
+        <Col md={12} className="home-about-social">
+          <h1>Мої соц. мережі</h1>
+          <p>
+            Завжди відкритий до <span className="purple">спілкування </span>
+          </p>
+        </Col>
+      </Row>
+      <Row>
         <Col md={12} className="home-about-social">
           <Contacts />
-         </Col>
+        </Col>
       </Row>
     </Container>
   );
